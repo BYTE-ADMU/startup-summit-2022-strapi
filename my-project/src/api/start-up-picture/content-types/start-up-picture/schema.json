@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "start_up_pictures",
+  "info": {
+    "singularName": "start-up-picture",
+    "pluralName": "start-up-pictures",
+    "displayName": "Start Up Picture"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startuppictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
